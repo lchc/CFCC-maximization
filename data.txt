@@ -1,0 +1,89 @@
+reading graph from edges list file ego-facebook.edges
+finished reading graph
+	 LCC.n: 2888	 LCC.m: 2981
+LCC.n: 2888	 LCC.m: 2981
+
+running exact greedy...
+k=1 starts
+k = 1 total time: 1.5183697257421339e9 (s)
+k=2 starts
+k = 2 total time: 3.669584035873413 (s)
+k=3 starts
+k = 3 total time: 0.5121769905090332 (s)
+k=4 starts
+k = 4 total time: 0.5341200828552246 (s)
+k=5 starts
+k = 5 total time: 0.5014901161193848 (s)
+k=6 starts
+k = 6 total time: 0.46686387062072754 (s)
+k=7 starts
+k = 7 total time: 0.4730799198150635 (s)
+k=8 starts
+k = 8 total time: 0.42169189453125 (s)
+k=9 starts
+k = 9 total time: 0.391402006149292 (s)
+k=10 starts
+k = 10 total time: 0.4710879325866699 (s)
+exact_elapsed_time = 12.911548137664795 (s)
+calculating CFCC of the solution returned by exact greedy..
+CFCC achieved by exact greedy: 1.0195040155326094
+
+
+running approx greedy...
+k=1 starts
+LaplSolve total time: 2.013821840286255 (s)
+k=2 starts
+SDDM preconditioning time: 0.36534786224365234 (s)
+SDDM1 solve time: 0.42740416526794434 (s)
+SDDM2 solve time: 0.16970014572143555 (s)
+SDDM3 solve time: 0.2508108615875244 (s)
+k=3 starts
+SDDM preconditioning time: 0.002301931381225586 (s)
+SDDM1 solve time: 0.10053300857543945 (s)
+SDDM2 solve time: 0.09030294418334961 (s)
+SDDM3 solve time: 0.08916115760803223 (s)
+k=4 starts
+SDDM preconditioning time: 0.003194093704223633 (s)
+SDDM1 solve time: 0.10208392143249512 (s)
+SDDM2 solve time: 0.0808570384979248 (s)
+SDDM3 solve time: 0.12170004844665527 (s)
+k=5 starts
+SDDM preconditioning time: 0.0013608932495117188 (s)
+SDDM1 solve time: 0.09488391876220703 (s)
+SDDM2 solve time: 0.08283591270446777 (s)
+SDDM3 solve time: 0.0823209285736084 (s)
+k=6 starts
+SDDM preconditioning time: 0.00133514404296875 (s)
+SDDM1 solve time: 0.08545303344726562 (s)
+SDDM2 solve time: 0.0903770923614502 (s)
+SDDM3 solve time: 0.07989096641540527 (s)
+k=7 starts
+SDDM preconditioning time: 0.0016241073608398438 (s)
+SDDM1 solve time: 0.08582496643066406 (s)
+SDDM2 solve time: 0.07333707809448242 (s)
+SDDM3 solve time: 0.06978797912597656 (s)
+k=8 starts
+SDDM preconditioning time: 0.001260995864868164 (s)
+SDDM1 solve time: 0.07335901260375977 (s)
+SDDM2 solve time: 0.07126903533935547 (s)
+SDDM3 solve time: 0.07619094848632812 (s)
+k=9 starts
+SDDM preconditioning time: 0.0012738704681396484 (s)
+SDDM1 solve time: 0.04004693031311035 (s)
+SDDM2 solve time: 0.03457188606262207 (s)
+SDDM3 solve time: 0.0421450138092041 (s)
+k=10 starts
+SDDM preconditioning time: 0.002977132797241211 (s)
+SDDM1 solve time: 0.03677082061767578 (s)
+SDDM2 solve time: 0.03396797180175781 (s)
+SDDM3 solve time: 0.0414431095123291 (s)
+approx_elapsed_time = 5.040308952331543s
+calculating CFCC of the solution returned by approx greedy..
+CFCC achieved by approx greedy: 1.0195040155326096
+
+
+exact_elapsed_time: 12.911548137664795 (s)	 cent[k]: 1.0195040155326094
+approx_elapsed_time: 5.040308952331543 (s)	 cent[k]: 1.0195040155326096
+
+********************************************************************************
+
